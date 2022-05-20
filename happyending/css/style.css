@@ -1,0 +1,146 @@
+/* ---------- CUSTOM STYLES ----------  */
+
+body {
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
+/* ---------- BACKGROUND IMAGES ----------  */
+.carouselbg1, .carouselbg2, .carouselbg3 {
+	background-image: url("../imgs/hero1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carouselbg2 {
+	background-image: url("../imgs/hero2.jpg");
+}
+.carouselbg3 {
+	background-image: url("../imgs/hero3.jpg");
+}
+
+/* ---------- TEXTS ----------  */
+.herotext1 {
+  background: rgba( 133, 82, 30,0.4);
+  color:#fff;
+}
+
+.htext_green {
+  color: #85521E;
+  font-weight: bolder;
+}
+
+.team_text1 {
+  color: #85521E;
+  font-weight: bolder;
+}
+
+.teamlink1 {
+  text-decoration: none;
+  color: #5a5a5a;
+}
+
+.teamlink1:hover {
+  color: #5a5a5a;
+}
+
+/* ---------- BACKGROUND COLORS ----------  */
+.xbg001 {
+  background-color: orange;
+}
+
+.xbg002 {
+  background-color: pink;
+}
+
+.xbg003 {
+  background-color: cornflowerblue;
+}
+
+.xbg004 {
+  background-color: goldenrod;
+}
+
+.znavbar, .formbg1, th.zbg001 {
+  background: #4F5824;
+}
+
+.profile1 {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile1:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: #f5f5f5;
+}
+
+
+/* ---------- BUTTONS ----------  */
+.herobtn, .featurebtn {
+ background: #4F5824;
+ border-color:#4F5824;
+}
+
+.herobtn:hover {
+ background: #f5f5f5;
+ border-color: #f5f5f5;
+ color: #4F5824;
+}
+
+.featurebtn {
+}
+
+.featurebtn:hover {
+  border-color: #4F5824;
+  background: #f5f5f5;
+  color: #4F5824;
+}
+
+.formbtn1  {
+ background:  #f5f5f5;
+ border-color:  #f5f5f5;
+ color: #4F5824;
+}
+
+.formbtn1:hover {
+ background: #4F5824;
+ border-color:  #f5f5f5;
+ color: #f5f5f5;
+}
+
+/* ----- Back to top button -----*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  z-index: 99;
+  /*font-size: 18px;*/
+  border: none;
+  outline: none;
+  background-color: #4F5824;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
