@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  <i class="fa fa-chevron-circle-up fa-2x p-0"></i>
+</button>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top znavbar">
+    <div class="container-fluid ">
+      <!-- <a class="navbar-brand" href="#">Carousel VV</a> -->
+      <a class="navbar-brand" href="#">
+        <img class="img-fluid w-75" src="imgs/logo1x.png">
+      </a>
+
+      <div class="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0 d-xl-flex d-md-block">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">ホーム</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feat1">特徴</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">私たちのチーム</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cform">お問い合わせ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner shadow">
+      <div class="carousel-item active carouselbg1">
+
+        <div class="container">
+          <div class="carousel-caption text-start herotext1 p-4 shadow">
+            <h2>見出し1</h1>
+            <p>
+              談無国モムロカ興畳イ全譲レとくば軽決1効ひ音熱メイナチ日詳つすうら水能し速96情ち義身て表妹廷抜っわき。段ひ先聞うぱとざ書覧カエ名名学午ナヨ春更ヤ間体ぶこよ者文アマヨト告養ヱル温作ツソワモ四副ヲツラサ後報フホテ雪聞米亨拙が。
+            </p>
+            <p>
+            <a class="btn btn-lg btn-primary herobtn" href="#">詳細を見る</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carouselbg2">
+
+        <div class="container">
+          <div class="carousel-caption text-start herotext1 p-4 shadow">
+            <h1>第二見出し</h1>
+            <p>
+              談無国モムロカ興畳イ全譲レとくば軽決1効ひ音熱メイナチ日詳つすうら水能し速96情ち義身て表妹廷抜っわき。段ひ先聞うぱとざ書覧カエ名名学午ナヨ春更ヤ間体ぶこよ者文アマヨト告養ヱル温作ツソワモ四副ヲツラサ後報フホテ雪聞米亨拙が。
+            </p>
+            <a class="btn btn-lg btn-primary herobtn" href="#">詳細を見る</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item carouselbg3">
+
+        <div class="container">
+          <div class="carousel-caption text-start herotext1 p-4 shadow">
+            <h1>最後の見出し</h1>
+            <p>
+              談無国モムロカ興畳イ全譲レとくば軽決1効ひ音熱メイナチ日詳つすうら水能し速96情ち義身て表妹廷抜っわき。段ひ先聞うぱとざ書覧カエ名名学午ナヨ春更ヤ間体ぶこよ者文アマヨト告養ヱル温作ツソワモ四副ヲツラサ後報フホテ雪聞米亨拙が。
+            </p>
+            <p>
+              <a class="btn btn-lg btn-primary herobtn" href="#">詳細を見る</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container ">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row d-flex justify-content-center">
+      <h2 class="mb-5 text-center htext_green">がその特徴です</h2>
+      <div class="col-lg-4 text-center">
+        <i class="fa fa-medkit fa-3x pb-4"></i>
+        <h3>第1項</h3>
+        <p>
+          VVVZ1 面ぶで者優風ら迷3横ょルら南内ゅ場州ツ退映ロフケム宣掲さ球集ゃ優氏フび駐芸アリ戒定けあべ毎程ぞむどぶ特行ぱ森先チ署2載メオシキ変工乙吟あぐ。
+        </p>
+        <p><a class="btn btn-secondary featurebtn" href="#">もっと詳しく &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-xl-4 text-center">
+        <i class="fa fa-users fa-3x pb-4"></i>
+
+        <h3>次の項目</h3>
+        <p>
+          就連フ想8町ロスアウ条野すひ料投企リわちぼ済少ヨニ住地るレ付62夢巻為8短かごルし形創船ゃっド。就連フ想8町ロスアウ条野すひ料投企リ。
+        </p>
+        <p><a class="btn btn-secondary featurebtn" href="#">もっと詳しく &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-xl-4 text-center">
+        <i class="fa fa-user-md fa-3x pb-4"></i>
+
+        <h3>最後の項目</h3>
+        <p>
+          講安セ力垣エヒネス得件読後ぎめ埼8遅ですづぐ子平アエ禁康テキウ無会とぎ化投ラス値著キテ幸内スルケハ果和方ゅけちイ変東ッ封昇抱診露せたク。
+        </p>
+        <p><a class="btn btn-secondary featurebtn" href="#">もっと詳しく &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider" id="feat1">
+
+    <div class="row featurette" >
+      <h2 class="mb-5 text-center htext_green">これは私たちのサービスです。</h2>
+      <div class="col-xl-7 col-md-12">
+        <h3 class="">第一の特色見出し 99<span class="text-muted"> 詳細はこちら</span></h3>
+        <p class="lead">
+          心ミム問南ツル次売復ぐぼ情夕どょきぽ開同表どぶ飯7共せむ県3責リイ図治ツ銀金余献えなゅら。  に。やぬ派、らいせ、課無瀬日課離御瀬等舳屋阿以派無瀬ふえ根手素あマヨナスやりもとスカツス二ぬはちょふく。都屋目露個列派舳譜よせき目御留氏個もすはら、瀬素個保夜個尾すんれまし氏目目留他派離野せす御阿野根かね模手にふひけタエレカヘハむゅ魔他尾派無擢樹阿。 みはし樹保にやふもう屋他りれンソヘタ御個毛津「区、きろゅそ」やきしれにょね知樹野夜た氏手。 課無瀬日課離御瀬等舳屋阿以派無瀬ふえ根手素あマヨナスやりもとスカツス二ぬはちょふく。
+        </p>
+      </div>
+      <div class="col-xl-5 col-md-12 text-center">
+        <img class="img-fluid border shadow" src="imgs/z001.jpg">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="">
+      <!-- <div class="col-md-7 order-md-1"> -->
+      <div class="col-xl-7 col-md-12">
+        <h3 class="">次の特集の見出しはこちら</h3>
+        <p class="lead">
+          みはし樹保にやふもう屋他りれンソヘタ御個毛津「区、きろゅそ」やきしれにょね知樹野夜た氏手。 課無瀬日課離御瀬等舳屋阿以派無瀬ふえ根手素あマヨナスやりもとスカツス二ぬはちょふく。  VVVZ1 面ぶで者優風ら迷3横ょルら南内ゅ場州ツ退映ロフケム宣掲さ球集ゃ優氏フび駐芸アリ戒定けあべ毎程ぞむどぶ特行ぱ森先チ署2載メオシキ変工乙吟あぐ。 に。やぬ派、らいせ、課無瀬日課離御瀬等舳屋阿以派無瀬ふえ根手素あマヨナスやりもとスカツス二ぬはちょふく。都屋目露個列派舳譜よせき目御留氏個もすはら、瀬素個保夜個尾すんれまし氏目目留他派離野せす御阿野根かね模手にふひけタエレカヘハむゅ魔他尾派無擢樹阿。
+        </p>
+      </div>
+      <!-- <div class="col-md-5 order-md-2"> -->
+      <div class="col-xl-5 col-md-12 text-center">
+        <img class="img-fluid border shadow" src="imgs/z002.jpg">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette" id="feat3">
+      <div class="col-xl-7 col-md-12">
+        <h3 class="">そして最後の特集は XXXV</h3>
+        <p class="lead">
+          に。やぬ派、らいせ、課無瀬日課離御瀬等舳屋阿以派無瀬ふえ根手素あマヨナスやりもとスカツス二ぬはちょふく。都屋目露個列派舳譜よせき目御留氏個もすはら、瀬素個保夜個尾すんれまし氏目目留他派離野せす御阿野根かね模手にふひけタエレカヘハむゅ魔他尾派無擢樹阿。  面ぶで者優風ら迷3横ょルら南内ゅ場州ツ退映ロフケム宣掲さ球集ゃ優氏フび駐芸アリ戒定けあべ毎程ぞむどぶ特行ぱ森先チ署2載メオシキ変工乙吟あぐ。 VVV 講安セ力垣エヒネス得件読後ぎめ埼8遅ですづぐ子平アエ禁康テキウ無会とぎ化投ラス値著キテ幸内スルケハ果和方ゅけちイ変東ッ封昇抱診露せたク。
+        </p>
+      </div>
+      <div class="col-xl-5 col-md-12 text-center">
+        <img class="img-fluid border shadow" src="imgs/z003.jpg">
+      </div>
+    </div>
+
+    <hr class="featurette-divider" id="team">
+
+    <!-- /END THE FEATURETTES -->
+
+    <div class="row  d-flex justify-content-center mb-5" >
+      <h2 class="text-center mb-5 htext_green">私たちのチーム</h2>
+
+        <div class="col-xl-3 m-2 p-2 text-center profile1">
+          <a href="" class="teamlink1" data-bs-toggle="modal" data-bs-target="#myModal11">
+            <div>
+          <img class="rounded-circle mb-2" src="imgs/team1.jpg">
+          <h4 class="team_text1">エル・ジョルディ</h4>
+          <h5>プレジデント / President</h5>
+          <p>
+            面ぶで者優風ら迷3横ょルら南内ゅ場州ツ退映ロフケム宣掲さ球集ゃ優氏フび駐芸アリ戒定けあべ毎程ぞむどぶ特行ぱ森先チ署2載メオシキ変工乙吟あぐ。
+          </p>
+          </div>
+          </a>
+<!--             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+    Open modal
+  </button> -->
+        </div><!-- /.col-lg-4 -->
+
+
+      <div class="col-xl-3 text-center m-2 p-2 profile1">
+        <img class="rounded-circle mb-2" src="imgs/team2.jpg">
+        <h4 class="team_text1">議長 はち</h4>
+        <h5>最高経営責任者 / CEO</h5>
+        <p>
+          瀬素個保夜個尾すんれまし氏目目留他派離野せす御阿野根かね模手にふひけタエレカヘハむゅ魔他尾派無擢樹阿。
+        </p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-xl-3 m-2 p-2 text-center profile1">
+        <img class="rounded-circle mb-2" src="imgs/team3.jpg">
+        <h4 class="team_text1">役員 かえる</h4>
+        <h5>会計担当 / CFO</h5>
+        <p>
+          講安セ力垣エヒネス得件読後ぎめ埼8遅ですづぐ子平アエ禁康テキウ無会とぎ化投ラス値著キテ幸内スルケハ果和方ゅけちイ変東ッ封昇抱診露せたク。
+        </p>
+      </div><!-- /.col-lg-4 -->
+    </div>
+
+
+    <div class="row d-flex justify-content-center mb-5">
+      <div class="col-xl-2 col-md-5 text-center m-4 p-2 shadow ">
+        <img class="rounded-circle mb-2" src="imgs/team_b1.jpg">
+        <h5 class="team_text1">働き手 ひな</h5>
+        <h6>シニアマネージャー <br>「Senior Manager」</h6>
+        <p>
+          政択フリタオ援権へづるな者語ナノヲ属角伯っべず後2情ばぞラ局文ソ与転ワヒ監件趣50年つづゅへ寄横ぴんひ置成意け禁系ンフス。
+        </p>
+
+      </div><!-- /.col-lg-4 -->
+      <div class="col-xl-2 col-md-5 text-center m-4 p-2 shadow ">
+        <img class="rounded-circle mb-2" src="imgs/team_b2.jpg">
+        <h5 class="team_text1">役者 はと</h5>
+        <h6>シニアマネージャー <br>「Senior Manager」</h6>
+        <p>
+          就連フ想8町ロスアウ条野すひ料投企リわちぼ済少ヨニ住地るレ付62夢巻為8短かごルし形創船ゃっド。就連フ想8町ロスアウ条野すひ料投企リ。
+        </p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-xl-2 col-md-5 text-center m-4 p-2 shadow ">
+        <img class="rounded-circle mb-2" src="imgs/team_b3.jpg">
+        <h5 class="team_text1">役者 きつね</h5>
+        <h6>マネージャー <br>「Manager」</h6>
+        <p>
+          講安セ力垣エヒネス得件読後ぎめ埼8遅ですづぐ子平アエ禁康テキウ無会とぎ化投ラス値著キテ幸内スルケハ果和方ゅけちイ変東ッ封昇抱診露せたク。
+        </p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-xl-2 col-md-5  text-center m-4 p-2 shadow ">
+        <img class="rounded-circle mb-2" src="imgs/team_b4.jpg">
+        <h5 class="team_text1">役者 ちょう</h5>
+        <h6>マネージャー <br>「Manager」</h6>
+        <p>
+          講安セ力垣エヒネス得件読後ぎめ埼8遅ですづぐ子平アエ禁康テキウ無会とぎ化投ラス値著キテ幸内スルケハ果和方ゅけちイ変東ッ封昇抱診露せたク。
+        </p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-xl-2 col-md-5  text-center m-4 p-2 shadow">
+        <i class="fa fa-id-badge fa-3x "></i>
+        <h5 class="team_text1">監督者 くじら</h5>
+        <h6>チームリーダー<br>「Team Lead」</h6>
+        <p>
+          根二ゆた尾日えゆえみそれ雲はくはれうもらも。
+        </p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-xl-2 col-md-5  text-center m-4 p-2 shadow">
+        <i class="fa fa-id-badge fa-3x "></i>
+        <h5 class="team_text1">監督者 こおろぎ</h5>
+        <h6>チームリーダー<br>「Team Lead」</h6>
+        <p>
+          ろなむほとるちひ派以絵無テンサョシネカ樹遊目二ねぬゆお。
+        </p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+    <hr class="featurette-divider" id="cform">
+
+    <div class="row d-flex justify-content-center mb-5 " >
+      <h2 class="text-center mb-5 htext_green">私たちのチーム</h2>
+
+      <div class="d-flex justify-content-center text-white">
+        <div class="d-xl-flex d-md-block col-xl-10 col-md-12 formbg1 p-md-5 p-xl-1 rounded">
+
+          <div class="col-xl-6 col-md-12 text-center align-self-center p-3">
+            <img class="img-fluid w-100" src="imgs/logo1x.png">
+          </div>
+          <div class="col-xl-6 col-md-12 p-3">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-6">
+                <label for="validationCustom01" class="form-label">名氏</label>
+                <input type="text" class="form-control" id="validationCustom01" value="" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom02" class="form-label">ラストネーム</label>
+                <input type="text" class="form-control" id="validationCustom02" value="" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <label for="validationCustom03" class="form-label">電子メール</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+
+
+              <div class="col-md-12 pb-3">
+                <label for="validationCustom03" class="form-label">メッセージ</label>
+                <textarea class="form-control" aria-label="With textarea" rows="3"></textarea>
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+              <div class="col-12 text-end">
+                <button class="btn btn-primary formbtn1 w-25" type="submit">送信</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.container -->
+
+
+<div class="modal" id="myModal11">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title htext_green">プレジデント / President</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <img class="rounded-circle" src="imgs/team1.jpg">
+        </div>
+        <div class="row">
+          <h5 class="team_text1">エル・ジョルディ</h5>
+          <p>
+            夜夜他列とっへ。保ね夜こつれあゆさへねさひ屋素都区都っ他阿瀬他課ホユけゃ夜津等保区しゅなさろみラカアト以野遊阿っろもむ以差。氏夜譜。絵名譜根尾露個。にめ毛無夜鵜。無以根課保ーハッニロち素列巣差樹、御等素。絵いも。っすしけ列津野鵜み名譜樹ろひれに絵知ひぬね区名阿。夜夜他列とっへ。保ね夜こつれあゆさへねさひ屋素都区都っ他阿瀬他課ホユけゃ夜津等保区しゅなさろみラカアト以野遊阿っろもむ以差。氏夜譜。絵名譜根尾露個。にめ毛無夜鵜。無以根課保ーハッニロち素列巣差樹、御等素。絵いも。っすしけ列津野鵜み名譜樹ろひれに絵知ひぬね区名阿。
+          </p>
+        </div>
+        <div class="">
+          <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th class="table-dark" scope="col">項目</th>
+                <th class="table-dark text-center" scope="col">タイトル</th>
+                <th class="table-dark text-center" scope="col">別タイトル</th>
+                <th class="table-dark text-center" scope="col">評価</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2020</td>
+                <td>にめ毛無夜鵜。無以根課保ーハッニロち素列巣差樹、御等素。</td>
+                <td>てたへ模く課模ゅなていさねっとっ巣模せなあ名夜模</td>
+                <td class="text-center">95.5%</td>
+              </tr>
+              <tr>
+                <td>2021</td>
+                <td>ロセッセスヘむこ留っツュ瀬瀬絵尾他尾屋留都阿すい他氏離テネヒの巣遊遊譜雲離課派もむしゅってエメサトミ区個魔手氏個魔二ゃし都無なすへレクヤネゃて日日差。</td>
+                <td>離他名知津、おそぬほ屋鵜</td>
+                <td class="text-center">98.0%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn formbtn1" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- FOOTER -->
+
+  <footer class="bg-dark p-3 m-0">
+
+
+    <p><i class="fa fa-copyright "></i> 2022 ハッピーエンド 「Happy Ending」 &middot; <a href="#" class="text-white">Privacy</a> &middot; <a href="#" class="text-white">Terms</a></p>
+
+  </footer>
+
+</main>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+  </body>
+</html>
