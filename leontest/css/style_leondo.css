@@ -1,0 +1,85 @@
+/* ---------- CUSTOM STYLES ----------  */
+
+/*----- Font families -----*/
+@font-face {
+  font-family: "Otsutome_font";
+  src: url(assets/fonts/OtsutomeFont_Ver3.ttf) format("truetype");
+}
+
+body {
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+  /*----- Font ----- */
+
+}
+
+/* ---------- BACKGROUND IMAGES ----------  */
+.carouselbg1, .carouselbg2, .carouselbg3 {
+	background-image: url("../imgs/hero1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.carouselbg2 {
+	background-image: url("../imgs/hero2.jpg");
+}
+.carouselbg3 {
+	background-image: url("../imgs/hero3.jpg");
+}
+
+/* ---------- TEXTS ----------  */
+
+.logo_text1 {
+  font-size: 21pt;
+  font-weight: 400;
+  color: #FBD816;
+
+}
+
+
+  .l01, .l02 {
+    font-family: ab-ryusen-fuyu,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+  .l02 {
+    background-color: orange;
+  }
+
+p, .h1title {
+  font-family: Otsutome_font;
+}
+
+
+/* ---------- BACKGROUND COLORS ----------  */
+.navbar_leondo {
+  background-color: #000;
+}
+
+.xbg001 {
+  background-color: lime;
+}
+
+.xbg002 {
+  background-color: orange;
+}
+
+.xbg003 {
+  background-color: yellow;
+}
+
+.xbg003 {
+  background-color: pink;
+}
+
+/* ---------- BUTTONS ----------  */
+
+
+
+
+/* ---------- MEDIA QUERY ----------*/
+@media (min-width: 768px) {
+
+}
