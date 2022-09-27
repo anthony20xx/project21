@@ -2,8 +2,8 @@
 
 /*----- Font families -----*/
 @font-face {
-  font-family: "Otsutome_font";
-  src: url(assets/fonts/OtsutomeFont_Ver3.woff) format("truetype");
+  font-family: "CustomFont";
+  src: url(../assets/fonts/OtsutomeFont_Ver3.woff) format("truetype");
 }
 
 body {
@@ -21,6 +21,9 @@ body {
   background-size: cover;
 }
 
+.redme {
+	color:red;
+}
 .carouselbg2 {
 	background-image: url("../imgs/hero2.jpg");
 }
