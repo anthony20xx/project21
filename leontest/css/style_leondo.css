@@ -3,7 +3,7 @@
 /*----- Font families -----*/
 @font-face {
   font-family: "CustomFont";
-  src: url(../assets/fonts/OtsutomeFont_Ver3.woff) format("truetype");
+  src: url("../assets/fonts/OtsutomeFont_Ver3.woff") format("truetype");
 }
 
 body {
