@@ -23,6 +23,7 @@ body {
 
 .redme {
 	color:red;
+	font-weight: bolder;
 }
 .carouselbg2 {
 	background-image: url("../imgs/hero2.jpg");
@@ -52,7 +53,7 @@ body {
   }
 
 p, .h1title {
-  font-family: Otsutome_font;
+  font-family: CustomFont;
 }
 
 
