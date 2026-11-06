@@ -1,3 +1,755 @@
-<html>
-<h1>Setting up... Initializing....</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+    <title>Carousel Template · Bootstrap v5.1</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-portf.css" rel="stylesheet">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  </head>
+  <body >
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">
+  <i class="fa fa-chevron-circle-up fa-2x p-0"></i>
+</button>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top znavbar">
+    <div class="container-fluid ">
+      <!-- <a class="navbar-brand" href="#">Carousel VV</a> -->
+      <a class="navbar-brand" href="#">
+        <!-- img class="img-fluid w-75" src="imgs/logo1x.png" -->
+        <img class="img-fluid-logo " src="imgx/logo11.svg">
+      </a>
+
+      <div class="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0 d-xl-flex d-md-block">
+            <li class="nav-item">
+              <a class="nav-link" href="https://drive.google.com/file/d/1spcOQXMy_ZH1ibpgBoe463Eo7X5nAj3f/view?usp=sharing" target="_blank">Profile&nbsp;&nbsp;</a>
+            </li>            
+            <li class="nav-item">
+              <a class="nav-link" href="#cform">Contact&nbsp;&nbsp;</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+    </div>
+    <div class="carousel-inner shadow">
+      <div class="carousel-item active carouselbg1">
+        <div class="container">
+          <div class="carousel-caption text-start herotext1 p-4 shadow">
+            <h1>UI/UX WIRE FRAME</h1>
+            <p>
+              Strategic structural blueprints and user-flow models created to maximize usability, validate product architecture, and ensure intuitive user interactions from concept to execution.
+            </p>
+            <p>
+              <a href="" class="mustardLink fs-6" data-bs-toggle="modal" data-bs-target="#myModal11">Read more...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item carouselbg2">
+        <div class="container">
+          <div class="carousel-caption text-start herotext1 p-4 shadow">
+            <h1>FRONTEND</h1>
+            <p>
+              Web interface designs to life across client projects through clean architecture, cross-browser compatibility, and pixel-perfect execution.
+            </p>
+              <a href="" class="mustardLink fs-6" data-bs-toggle="modal" data-bs-target="#myModalFront">Read more...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item carouselbg3">
+        <div class="container">
+          <div class="carousel-caption text-start herotext1 p-4 shadow">
+            <h1>GRAPHICS DESIGN</h1>
+            <p>
+              A curated collection of graphic design work spanning digital visual assets and print media, crafted to communicate compelling brand identities and elevate visual communication.
+            </p>
+            <p>
+              <a href="" class="mustardLink fs-6" data-bs-toggle="modal" data-bs-target="#myModalGraphics">Read more...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item carouselbg4">
+        <div class="container">
+          <div class="carousel-caption text-start herotext1 p-4 shadow">
+            <h1>PRESENTATION</h1>
+            <p>
+              Professional slide deck designs combining clean visual hierarchy, persuasive storytelling, and refined typography to communicate key ideas effectively.
+            </p>
+            <p>
+              <a href="" class="mustardLink fs-6" data-bs-toggle="modal" data-bs-target="#myModalPresents">Read more...</a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item carouselbg5">
+        <div class="container">
+          <div class="carousel-caption text-start herotext1 p-4 shadow">
+            <h1>SOCIAL MEDIA</h1>
+            <p>
+              Full-suite social channel execution combining innovative AI-generated visual design and dynamic POV video content to build scalable, high-impact digital brand presences.
+            </p>
+            <p>
+              <a href="" class="mustardLink fs-6" data-bs-toggle="modal" data-bs-target="#myModalSocialM">Read more...</a>
+            </p>
+          </div>
+        </div>
+      </div>      
+
+      <div class="carousel-item carouselbg6">
+        <div class="container">
+          <div class="carousel-caption text-start herotext1 p-4 shadow">
+            <h1>CERTIFICATIONS</h1>
+            <p>
+              Validated credentials and course completions from accredited online platforms, reflecting a commitment to ongoing technical and creative professional development.
+            </p>
+            <p>
+              <a href="" class="mustardLink fs-6" data-bs-toggle="modal" data-bs-target="#myModalCerts">Read more...</a>
+            </p>
+          </div>
+        </div>
+      </div>      
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container">
+
+    <div class="row  d-flex justify-content-center mb-5" >
+      <h2 class="text-center mb-5 htext_green">PORTFOLIO</h2>
+
+        <div class="col-xl-3 m-2 p-2 text-center profile1">
+          <a href="" class="teamlink1" data-bs-toggle="modal" data-bs-target="#myModal11">
+        <div>
+          <img class="img-fluid-port mb-2" src="imgx/hero-uiux.jpg">
+          <h4 class="team_text1">UI/UX WIRE FRAME</h4>
+          <p class="text-start">
+            Strategic structural blueprints and user-flow models created to maximize usability, validate product architecture, and ensure intuitive user interactions from concept to execution.
+            <br>Read more...
+          </p>
+          </div>
+          </a>
+      </div>
+      <div class="col-xl-3 m-2 p-2 text-center profile1">
+          <a href="" class="teamlink1" data-bs-toggle="modal" data-bs-target="#myModalFront">
+            <div>
+          <img class="img-fluid-port mb-2" src="imgx/hero-frontend.jpg">
+          <h4 class="team_text1">FRONT-END</h4>
+          <p class="text-start">            
+            Web interface designs to life across client projects through clean architecture, cross-browser compatibility, and pixel-perfect execution.
+            <br>Read more...
+          </p>
+          </div>
+          </a>
+      </div>
+        <div class="col-xl-3 m-2 p-2 text-center profile1">
+          <a href="" class="teamlink1" data-bs-toggle="modal" data-bs-target="#myModalGraphics">
+            <div>
+          <img class="img-fluid-port mb-2" src="imgx/hero-graphicsdesign.jpg">
+          <h4 class="team_text1">GRAPHICS DESIGN</h4>
+          <p class="text-start">
+            A curated collection of graphic design work spanning digital visual assets and print media, crafted to communicate compelling brand identities and elevate visual communication.
+            <br>Read more...
+          </p>
+          </div>
+          </a>
+      </div>
+
+      <div class="col-xl-3 m-2 p-2 text-center profile1">
+          <a href="" class="teamlink1" data-bs-toggle="modal" data-bs-target="#myModalPresents">
+            <div>
+          <img class="img-fluid-port mb-2" src="imgx/hero-presentation.jpg">
+          <h4 class="team_text1">PRESENTATION</h4>
+          <p class="text-start">
+            Professional slide deck designs combining clean visual hierarchy, persuasive storytelling, and refined typography to communicate key ideas effectively.
+            <br>Read more...
+          </p>
+          </div>
+          </a>
+      </div>
+        <div class="col-xl-3 m-2 p-2 text-center profile1">
+          <a href="" class="teamlink1" data-bs-toggle="modal" data-bs-target="#myModalSocialM">
+            <div>
+          <img class="img-fluid-port mb-2" src="imgx/hero-socialmedia2.jpg">
+          <h4 class="team_text1">SOCIAL MEDIA</h4>
+          <p class="text-start">
+            Full-suite social channel execution combining innovative AI-generated visual design and dynamic POV video content to build scalable, high-impact digital brand presences.
+            <br>Read more...
+          </p>
+          </div>
+          </a>
+      </div>
+
+        <div class="col-xl-3 m-2 p-2 text-center profile1">
+          <a href="" class="teamlink1" data-bs-toggle="modal" data-bs-target="#myModalCerts">
+            <div>
+          <img class="img-fluid-port mb-2" src="imgx/hero-certs.jpg">
+          <h4 class="team_text1">CERTIFICATIONS</h4>
+          <p class="text-start">
+            Validated credentials and course completions from accredited online platforms, reflecting a commitment to ongoing technical and creative professional development.
+            <br>Read more...
+          </p>
+          </div>
+          </a>
+      </div>
+
+    </div>
+
+
+    <hr class="featurette-divider " id="cform">
+    <div class="row d-flex justify-content-center mb-5 " >
+      <h2 class="text-center mb-5 htext_green">CONTACT US</h2>
+      <div class="d-flex justify-content-center ">
+        <div class="d-xl-flex d-md-block col-xl-8 col-md-12 bg-dark text-warning p-md-5 p-xl-1 rounded">
+
+          <div class="col-xl-12 col-md-12 p-5" >
+            <form class="row g-3 needs-validation" action="https://formsinit.com/anthonymendiola20zz@gmail.com" method="POST">
+              <div class="col-md-12">
+                <input type="hidden" name="_subject" value="Mail from Port26.io">
+                <input type="hidden" name="_next" value="https://anthony20xx.github.io/project21/port26/">
+
+                <label for="validationCustom01" class="form-label">NAME</label>
+                <input type="text" class="form-control" name="name" id="validationCustom01" value="" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <label for="validationCustom03" class="form-label">EMAIL</label>
+                <input type="email" name="email" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                  Please provide a valid email address.
+                </div>
+              </div>
+
+              <div class="col-md-12 pb-3">
+                <label for="validationCustom03" class="form-label">MESSAGE</label>
+                <textarea class="form-control" name="message" aria-label="With textarea" rows="3" required></textarea>
+                <div class="invalid-feedback">
+                  Please provide message.
+                </div>
+              </div>
+              <div class="col-12 text-end">
+                <button class="btn  herobtn w-25" type="submit">SEND</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.container -->
+
+<!-- MODAL 111 --------------------------------------------- -->
+<div class="modal" id="myModal11">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-dark">
+        <h4 class="modal-title text-warning">UI/UX WIREFRAME</h4>
+         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <!-- img class="img-fluid-port" src="imgX/hero-uiux.jpg" -->
+        </div>
+        
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td class="w-25"><img class="img-fluid-port" src="imgX/UIUX01-ITENGR-22a.jpg"></td>
+                <td class="align-middle"><img class="img-fluid-port" src="imgX/UIUX01-ITENGR-11.jpg"></td>
+              </tr>
+              <tr>
+                <td colspan=2 class='text-center'><a href="https://www.trust-growth.co.jp/it-engineer/" target="_blank">GeekGrowth IT Engineer Official Page</a> [Adobe XD]</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td class="align-middle w-25"><img class="img-fluid-port" src="imgx/UIUX02-AFOOD-22.jpg"></td>
+                <td><img class="img-fluid-port" src="imgx/UIUX02-AFOOD-11.jpg"></td>
+              </tr>
+              <tr>
+                <td colspan=2 class='text-center'>ASMO Food - Prototype [Adobe XD]</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td class="align-middle w-25" ><img class="img-fluid-port" src="imgx/UIUX03-AMART-11.jpg"></td>
+                <td class="align-middle"><img class="img-fluid-port" src="imgX/UIUX03-AMART-22.jpg"></td>
+              </tr>
+              <tr>
+                <td colspan=2 class='text-center'>ASMO Mart - Prototype [Adobe XD]</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td class="align-middle w-25"><img class="img-fluid-port" src="imgx/UIUX04-ACARE-11.jpg"></td>
+                <td class="align-middle"><img class="img-fluid-port" src="imgx/UIUX04-ACARE-22.jpg"></td>
+              </tr>
+              <tr>
+                <td colspan=2 class='text-center'>ASMO Care - Prototype [Adobe XD]</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>        
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer bg-dark">
+        <button type="button" class="btn formbtn1" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- MODAL Front --------------------------------------------- -->
+<div class="modal" id="myModalFront">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-dark">
+        <h4 class="modal-title text-warning">FRONT-END</h4>
+         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <!-- img class="img-fluid-port" src="imgX/hero-uiux.jpg" -->
+        </div>
+        
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/02-FE-01-Leondo.jpg"><br>Leondou_JP Prototype Site</td>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/02-FE-02-AS-Food.jpg"><br>ASMO Food Prototype Site</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/02-FE-03-BabySitter.jpg"><br>ASMO Babysitter Prototype Site</td>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/02-FE-04-Cosmo.jpg"><br>Cosmopolitan Share House Prototype Site</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/02-FE-05-Prevs.jpg"><br>Various Old Prototype Website Design Layout</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>        
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer bg-dark">
+        <button type="button" class="btn formbtn1" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- MODAL Graphics --------------------------------------------- -->
+<div class="modal" id="myModalGraphics">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-dark">
+        <h4 class="modal-title text-warning">GRAPHICS DESIGN</h4>
+         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <!-- img class="img-fluid-port" src="imgX/hero-uiux.jpg" -->
+        </div>
+        
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td  class="bg-dark"><h5 class="text-warning">PRINT</h5></td>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/03-PRN-001pcard.jpg"></td>
+              </tr>
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/03-PRN-002pcard.jpg"><br>Postcards</td>
+              </tr> 
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/03-PRN-003fan.jpg"><br>Uchiwa Handfan </td>
+              </tr>                            
+            </tbody>
+          </table>
+        </div>
+
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <tr>
+                <td  class="bg-dark"><h5 class="text-warning">MARKETING / INFOGRAPHICS / LOGOS</h5></td>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/03-PRN-004Group11.jpg"></td>
+              </tr>
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/03-PRN-004Group22.jpg"></td>
+              </tr> 
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/03-PRN-004Group33.jpg"> </td>
+              </tr>                            
+              <tr>
+                <td class="text-center"><img class="img-fluid-port" src="imgx/03-PRN-004Logo.jpg"> </td>
+              </tr>                                          
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer bg-dark">
+        <button type="button" class="btn formbtn1" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL PRESENTATION --------------------------------------------- -->
+<div class="modal" id="myModalPresents">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-dark">
+        <h4 class="modal-title text-warning">PRESENTATION SLIDESHOWS</h4>
+         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <!-- img class="img-fluid-port" src="imgX/hero-uiux.jpg" -->
+        </div>
+        
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <!-- tr>
+                <td  class="bg-dark"><h5 class="text-warning">PRESENTATIONS / SLIDESHOWS</h5></td>
+                </td>
+              </tr> -->
+              <tr>
+                <td class="text-center">
+                  <a href="https://www.canva.com/design/DAGuafsHuHU/CJmX9vzRQl9YYHoIpq4j1Q/view?utm_content=DAGuafsHuHU&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8409524749" target="_blank">
+                  <img class="img-fluid-port" src="imgx/05-PPT-01.jpg"><br>
+                  Click to view</a>
+                </td>
+              </tr>
+              <tr>
+                <td class="text-center">
+                  <a href="https://www.canva.com/design/DAGugjDH1jE/nwcxS5TFXSvLVWNoXQmtkQ/view?utm_content=DAGugjDH1jE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb9063b9a98" target="_blank">                  
+                  <img class="img-fluid-port" src="imgx/05-PPT-02.jpg"><br>
+                  Click to view</a>
+                </td>
+              </tr> 
+              <tr>
+                <td class="text-center">
+                  <a href="https://www.canva.com/design/DAGunSKi4hI/U1Ju_acEOqVlalj28vJMww/view?utm_content=DAGunSKi4hI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hbb093bb4ec" target="_blank">
+                  <img class="img-fluid-port" src="imgx/05-PPT-03.jpg"><br>
+                  Click to view</a>
+                </td>
+              </tr>                            
+            </tbody>
+          </table>
+        </div>        
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer bg-dark">
+        <button type="button" class="btn formbtn1" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL SOCIAL --------------------------------------------- -->
+<div class="modal" id="myModalSocialM">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-dark">
+        <h4 class="modal-title text-warning">SOCIAL MEDIA</h4>
+         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <!-- img class="img-fluid-port" src="imgX/hero-uiux.jpg" -->
+        </div>
+        
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <!-- tr>
+                <td  class="bg-dark"><h5 class="text-warning">PRESENTATIONS / SLIDESHOWS</h5></td>
+                </td>
+              </tr> -->
+              <tr>
+                <td class="text-center align-middle w-25">
+                  <a href="https://www.instagram.com/stbeerus25/" target="_blank">
+                  <img class="img-fluid-port w-50" src="imgx/08-qr-1-SBau.jpg"><br>
+                  <b>stBeerus.AI</b><br>
+                  Instagram AI Generated <br>
+                  Portfolio Images
+                  </a>
+                </td>
+                <td class="text-center w-50">
+                  <a href="https://www.instagram.com/stbeerus25/" target="_blank">
+                  <img class="img-fluid-port" src="imgx/07-Social-01IG11.jpg"><br>
+                  </a>
+                </td>                
+              </tr>
+              <tr>
+                <td class="text-center align-middle w-25">
+                  <a href="https://www.facebook.com/profile.php?id=61557487950047" target="_blank">
+                  <img class="img-fluid-port w-50" src="imgx/08-qr-2-Paps.jpg"><br>
+                  <b>Papsee Jokes</b><br>
+                  Facebook Page AI Generated Images for Jokes and Memes
+                  </a>
+                </td>
+                <td class="text-center w-50">
+                  <a href="https://www.facebook.com/profile.php?id=61557487950047" target="_blank">
+                  <img class="img-fluid-port" src="imgx/07-Social-02FB11.jpg"><br>
+                  </a>
+                </td>                
+              </tr>              
+              <tr>
+                <td class="text-center align-middle w-25">
+                  <a href="https://www.tiktok.com/@pov.extraordinary" target="_blank">
+                  <img class="img-fluid-port w-50" src="imgx/08-qr-3-Tiks.jpg"><br>
+                  <b>POV Extra Ordinary</b><br>
+                  TikTok POV Travel Videos
+                  </a>
+                </td>
+                <td class="text-center w-50">
+                  <a href="https://www.tiktok.com/@pov.extraordinary" target="_blank">
+                  <img class="img-fluid-port" src="imgx/07-social-03tt.jpg"><br>
+                  </a>
+                </td>                
+              </tr>                    
+                <td class="text-center align-middle w-25">
+                  <a href="https://www.youtube.com/@povextraordinary" target="_blank">
+                  <img class="img-fluid-port w-50" src="imgx/08-qr-4-Yt.jpg"><br>
+                  <b>POV Extra Ordinary</b><br>
+                  Youtube POV Videos
+                  </a>
+                </td>
+                <td class="text-center w-50">
+                  <a href="https://www.youtube.com/@povextraordinary" target="_blank">
+                  <img class="img-fluid-port" src="imgx/07-social-04yt.jpg"><br>
+                  </a>
+                </td>                
+              </tr>              
+
+            </tbody>
+          </table>
+        </div>        
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer bg-dark">
+        <button type="button" class="btn formbtn1" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL CERTS --------------------------------------------- -->
+<div class="modal" id="myModalCerts">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header bg-dark">
+        <h4 class="modal-title text-warning">CERTIFICATIONS</h4>
+         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="text-center mb-4">
+          <!-- img class="img-fluid-port" src="imgX/hero-uiux.jpg" -->
+        </div>
+        
+        <div class="">
+          <table class="table table-bordered">
+            <tbody>
+              <!-- tr>
+                <td  class="bg-dark"><h5 class="text-warning">PRESENTATIONS / SLIDESHOWS</h5></td>
+                </td>
+              </tr> -->
+              <tr>
+                <td class="text-center">
+                  <a href="https://www.credly.com/users/anthony-mendiola/" target="_blank">
+                  <img class="img-fluid-port" src="imgx/06-Certs.jpg"><br>
+                  Click to view details</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>        
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer bg-dark">
+        <button type="button" class="btn formbtn1" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+  <!-- FOOTER -->
+
+  <footer class="bg-dark p-3 m-0">
+    <p><i class="fa fa-copyright "></i> 2026  「ONLINE PORTFOLIO anthony mendiola</p>
+  </footer>
+</main>
+
+
+
+        <!-- Footer-->
+
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+
+  </body>
 </html>
+
+<!--
+
+NOTES
+=====
+
+logo 454 x 91
+-->
